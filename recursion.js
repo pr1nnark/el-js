@@ -1,0 +1,1 @@
+// eleq js 3.2 init test file
