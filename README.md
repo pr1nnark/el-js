@@ -2,5 +2,5 @@
 ### Looping through javascript exercises while attempting to learn the language.
 
 
-Repo of problems and my solutions from the [elequent js book](http://eloquentjavascript.net/) (2nd edition).
+Repo of my solutions to the [elequent js book](http://eloquentjavascript.net/) (2nd edition).
  
