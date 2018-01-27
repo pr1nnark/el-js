@@ -60,4 +60,17 @@ while (s.length > eggo) {
     }
 console.log("How many? So many: " + howMany);
 }
-console.log(countLetter("And I say, Oh no sir, I must say you're wrong", "o"));  
+console.log(countLetter("And I say, Oh no sir, I must say you're wrong", "o")); 
+
+// Same as above, but with a for loop instead
+function countLetter(s,p) {
+var howMany = 0;
+for (var eggo = 0; s.length > eggo; eggo++) {
+    if (s.charAt(eggo) == p)
+        howMany++;
+    }
+console.log("How many? So many: " + howMany);   
+}
+console.log(countLetter("And I say, Oh no sir, I must say you're wrong", "o"));
+
+
