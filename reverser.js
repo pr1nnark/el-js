@@ -34,6 +34,8 @@ console.log(reversal(["A", "B", "C"]));
 
 // eleq js 4.2.2a -- no Math
 // Same as above, but _modify_ the input array directly like .reverse().
+/* Experienced troubles here, the main one being I didn't know this thing already existed:
+https://en.wikipedia.org/wiki/In-place_algorithm */
 function transporter(input){
     for(var i = 0; i < input.length / 2; i++) {
         var scotty = input[i];
