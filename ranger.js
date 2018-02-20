@@ -11,7 +11,7 @@ return rangeArray;
 console.log(ranger(1, 10));
 
 
-// eleq js 4.1b
+// eleq js 4.1b - (NB: Use together with above ranger function)
 /* Next, write a sum function that takes an array of numbers and returns the sum of these numbers. */
 
 function suk() {
@@ -49,8 +49,8 @@ rangerSuk(1, 10));
 function ranger(x,y,z) {
 rangeArray = [];
     if (z)
-        for (var steps = x; y >= steps; steps++)
-            rangeArray.push(steps);    
+        for (var steps = x; y >= steps; steps = steps + z)
+            rangeArray.push(steps);
     else
         for (var steps = x; y >= steps; steps++)
             rangeArray.push(steps);
@@ -70,7 +70,7 @@ rangeArray = [];
             rangeArray.push(steps);
     else if (z > 0)
         for (var steps = x; y >= steps; steps = steps + z)
-            rangeArray.push(steps);         
+            rangeArray.push(steps);
     else
         for (var steps = x; y >= steps; steps++)
             rangeArray.push(steps);
